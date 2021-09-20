@@ -42,8 +42,8 @@ namespace calculator_1
 
         
         public float Subtract(List<float> x) {
-            float result = 0;
-            for (int i = 0; i < x.Count; i++)
+            float result = x[0];
+            for (int i = 1; i < x.Count; i++)
             {
                 result -= x[i];
             }
